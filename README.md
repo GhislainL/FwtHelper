@@ -10,12 +10,37 @@ The data arrangement consists of a series of columns and rows organized into a t
 
 Target : .Net Standard 2.0
 
+Content:
 * FwtParser : library
 * FwtParser.Demo : demo code
 
-Choices 
+Choices: 
 
 ## Getting started
+
+### Define a record
+
+A record is a class that implements some Column properties.
+
+A column is defined by 4 properties :
+* position (mandatory)
+* length (mandatory)
+* padding character (optional, default is string.Empty)
+* padding (optional, default is Padding.Left)
+
+In the following example, we define a Record that has 2 columns:
+* columnA begins at position 5 on 12 characters with a left padding of string.empty
+* columnB begins at position 20 on 10 characters with a right padding of zeros (0)
+
+```csharp
+public class Record
+{
+    public Column columnA = new Column(5, 12);
+    public Column columnB = new Column(20, 10, '0', Padding.Right);
+
+    public Record() { }
+}
+```
 
 ### Read Data
 
