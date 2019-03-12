@@ -1,6 +1,8 @@
 # FwtParser
 FwtParser is a .NET Core library for reading and writing FWT files. 
 
+![FwtHelper logo](https://github.com/GhislainL/FwtHelper/blob/master/FwtHelper-logo.PNG)
+
 ## WTF is FWT ?
 FWT stands for Fixed Width Text. It is a kind of flat-file database
 See [flat-file database (wikipedia EN)](https://en.wikipedia.org/wiki/Flat-file_database)
