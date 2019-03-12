@@ -28,6 +28,8 @@ A column is defined by 4 properties :
 * padding character (optional, default is string.Empty)
 * padding (optional, default is Padding.Left)
 
+![Fwt file example](https://github.com/GhislainL/FwtHelper/blob/master/FwtFile.PNG)
+
 In the following example, we define a Record that has 2 columns:
 * columnA begins at position 5 on 12 characters with a left padding of string.empty
 * columnB begins at position 20 on 10 characters with a right padding of zeros (0)
