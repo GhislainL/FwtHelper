@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Ghislain Lerda</Authors>
     <Company>-</Company>
     <PackageProjectUrl></PackageProjectUrl>
@@ -12,6 +12,10 @@
     <Copyright>Copyright © 2009-2019 Ghislain Lerda</Copyright>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Description>FwtParser is a .NET Core library for reading and writing FWT (Fixed Width Text) files. Supports reading and writing of custom class objects.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
 
 </Project>
