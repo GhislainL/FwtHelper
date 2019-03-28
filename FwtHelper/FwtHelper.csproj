@@ -5,7 +5,7 @@
     <Authors>Ghislain Lerda</Authors>
     <Company>-</Company>
     <PackageProjectUrl></PackageProjectUrl>
-    <PackageIconUrl></PackageIconUrl>
+    <PackageIconUrl>https://github.com/GhislainL/FwtHelper/blob/master/FwtHelper-logo64.PNG?raw=true</PackageIconUrl>
     <RepositoryUrl>https://github.com/GhislainL/FwtHelper</RepositoryUrl>
     <PackageTags>FWT fixed-width-text separated value fixed</PackageTags>
     <PackageLicenseExpression>https://raw.githubusercontent.com/GhislainL/FwtHelper/master/LICENSE</PackageLicenseExpression>
