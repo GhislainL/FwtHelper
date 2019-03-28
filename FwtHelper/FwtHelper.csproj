@@ -8,7 +8,7 @@
     <PackageIconUrl>https://github.com/GhislainL/FwtHelper/blob/master/FwtHelper-logo64.PNG?raw=true</PackageIconUrl>
     <RepositoryUrl>https://github.com/GhislainL/FwtHelper</RepositoryUrl>
     <PackageTags>FWT fixed-width-text separated value fixed</PackageTags>
-    <PackageLicenseExpression>https://raw.githubusercontent.com/GhislainL/FwtHelper/master/LICENSE</PackageLicenseExpression>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>Copyright © 2009-2019 Ghislain Lerda</Copyright>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Description>FwtParser is a .NET Core library for reading and writing FWT (Fixed Width Text) files. Supports reading and writing of custom class objects.</Description>
