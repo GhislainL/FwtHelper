@@ -1,6 +1,8 @@
 # FwtParser
 FwtParser is a .NET Core library for reading and writing FWT files. 
 
+![FwtHelper logo](https://github.com/GhislainL/FwtHelper/blob/master/FwtHelper-logo.PNG)
+
 ## WTF is FWT ?
 FWT stands for Fixed Width Text. It is a kind of flat-file database
 See [flat-file database (wikipedia EN)](https://en.wikipedia.org/wiki/Flat-file_database)
@@ -27,6 +29,8 @@ A column is defined by 4 properties :
 * length (mandatory)
 * padding character (optional, default is string.Empty)
 * padding (optional, default is Padding.Left)
+
+![Fwt file example](https://github.com/GhislainL/FwtHelper/blob/master/FwtFile.PNG)
 
 In the following example, we define a Record that has 2 columns:
 * columnA begins at position 5 on 12 characters with a left padding of string.empty
