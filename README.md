@@ -1,4 +1,7 @@
 # FwtParser
+
+[![NuGet](https://img.shields.io/nuget/v/FwtHelper.svg)](https://github.com/GhislainL/FwtHelper)
+
 FwtParser is a .NET Core library for reading and writing FWT files. 
 
 ![FwtHelper logo](https://github.com/GhislainL/FwtHelper/blob/master/FwtHelper-logo.PNG)
